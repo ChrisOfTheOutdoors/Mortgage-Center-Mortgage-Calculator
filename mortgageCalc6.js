@@ -13,7 +13,7 @@ const canvas = document.getElementById('myChart');
 const ctx = canvas.getContext('2d');
 
 const data = {
-  labels: ['Purchase Price', 'Property Tax', 'Homeowner\'s Insurance', 'PMI', 'HOA Fees'],
+  labels: ['Mortgage Amount', 'Property Tax', 'Homeowner\'s Insurance', 'PMI', 'HOA Fees'],
   datasets: [{
     label: ' ',
     data: [0, 0 , 0 , 0 , 0 ],
