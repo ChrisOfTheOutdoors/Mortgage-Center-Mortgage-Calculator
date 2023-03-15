@@ -1,0 +1,78 @@
+
+<div class="container mt-5 rowCenter">
+    <h1 id="mainTitle">Mortgage Calculator</h1>
+    <p class="col-md-5 col-xs-1 instructions">Adjust the values below to estimate an affordable mortgage rate for your new home. <span id="hideAChart">Mouse over each of the inputs to learn more.</span></p>
+    <div class="row">
+        <div class="col-sm-6 inputsGrp">
+            <form id="mortgage-form">
+                <div class="form-group user-inputs mFormGroup">
+                    <label for="purchase-price"><div class="keyColorBlock keyPurchase"></div>Purchase Price</label>
+                    <input type="number" class="form-control" id="purchase-price" value="300000" required>
+                </div>
+                <div class="form-group user-inputs mFormGroup">
+                    <label for="down-payment">Down Payment</label>
+                    <input type="number" class="form-control" id="down-payment" value="60000" required>
+                </div>
+                <div class="form-group user-inputs mFormGroup">
+                    <label for="loan-term">Loan Term</label>
+                    <select class="form-control" id="loan-term">
+                        <option value="30">30 years</option>
+                        <option value="15">15 years</option>
+                    </select>
+                </div>
+                <div class="form-group user-inputs mFormGroup">
+                    <label for="interest-rate">Interest Rate (%)</label>
+                    <input type="number" class="form-control" id="interest-rate" value="3.5" required>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-5" id="hideAChart">
+            <canvas class="" id="myChart"></canvas>
+            <!-- <div id="chart-key" class="mt-4"></div> -->
+        </div>
+    </div>
+
+<!-- Options - Desktop Section -->
+<div class="mAccordion">
+<button class="mAccordionBtn">Additional Options</button>
+
+            <div class="optionsDesktop"> <div class="optionsMobile">
+                <h3 class="optionsTitleDesktop">Additional Expenses</h3>
+            <div class="row options-row mt-4 mAccordionContent">
+        <div class="col-sm-3">
+            <div class="form-group">
+                <label for="property-tax" ><div class="keyColorBlock keyTax"></div>Property Tax <br id="hideAChart">(per year)</label>
+                <input type="number" class="form-control" id="property-tax" value="3000">
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="form-group">
+                <label for="homeowners-insurance"><div class="keyColorBlock keyInsurance"></div>Homeowner's<br>Insurance <br id="hideAChart">(per month)</label>
+                <input type="number" class="form-control" id="homeowners-insurance" value="300">
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="form-group">
+                <label for="pmi"><div class="keyColorBlock KeyPMI"></div>PMI <br id="hideAChart">(per month)</label>
+                <input type="number" class="form-control" id="pmi" value="250">
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="form-group">
+                <label for="hoa-fees" title="Total Loan Amount For Purchasing the Home."><div class="keyColorBlock keyHOA"></div>HOA Fees <br id="hideAChart">(per month)</label>
+                <input type="number" class="form-control" id="hoa-fees" value="50">
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+    <div id="results" class="mt-4"></div>
+    
+    <iframe class="col-12 calcContactForm" src="https://go.mortgagecenter.com/l/654623/2023-01-30/f2b7l5" frameborder="0"></iframe>
+
+    <p class="col-12">Usage of this mortgage calculator does not constitute an offer by Mortgage Center. This mortgage calculator is for example purposes only, and bases assumptions on current market rates and norms.</p>
+</div>
+
+<script src="https://mortgage20.secure.cusolutionsgroup.net/files/mortgage20/1/file/CalculatorFiles/MortgageCalculator/mortgageCalc6.js"></script>
+<script id="accordionScript" src="https://mortgage20.secure.cusolutionsgroup.net/files/mortgage20/1/file/CalculatorFiles/MortgageCalculator/accordion.js"></script>
