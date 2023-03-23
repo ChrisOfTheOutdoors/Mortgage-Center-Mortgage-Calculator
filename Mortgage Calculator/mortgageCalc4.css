@@ -99,7 +99,7 @@
 
 @media screen and (min-width:1200px) {
     .disClaimer {
-        width: 59%;
+        width: 59% !important;
     }
 }
 
@@ -144,7 +144,7 @@
     }
 
     .disClaimer {
-        width: 67%;
+        width: 67% !important;
     }
 }
 
@@ -163,7 +163,7 @@
     }
 
     .disClaimer {
-        width: 95%;
+        width: 95% !important;
     }
 
 }
@@ -195,7 +195,7 @@
         width: 100% !important;
     }
     .disClaimer {
-        width: 95%;
+        width: 95% !important;
     }
 }
 
@@ -364,6 +364,6 @@
     
     .disClaimer {
         margin: 0px auto;
-        width: 95%;
+        width: 95% !important;
     }
 }
