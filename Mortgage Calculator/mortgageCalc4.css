@@ -78,6 +78,9 @@
 .rowCenter {
     margin: 0px auto;
 }
+.optionsMobile {
+    margin: 0px auto !important;
+}
 
 @media screen and (min-width: 576px) {
     .mAccordion {
