@@ -62,7 +62,8 @@
     border-color: #e9ecef;
     border-radius: 4px;
     padding: 10px;
-    margin: 15px 0px;
+    margin: 15px auto;
+    text-align: center;
 }
 
 .mAccordionBtn {
@@ -72,7 +73,6 @@
 #results {
     text-align: center;
     font-weight: 600;
-    padding: 45px 0px;
 }
 
 .rowCenter {
@@ -80,6 +80,27 @@
 }
 .optionsMobile {
     margin: 0px auto !important;
+}
+
+.calcContactForm {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #e9ecef;
+        width: 70% !important;
+        height: auto;
+}
+
+.disClaimer {
+    font-size: 0.8rem;
+    margin: 30px auto;
+    width: 67%;
+    color: #444;
+}
+
+@media screen and (min-width:1200px) {
+    .disClaimer {
+        width: 59%;
+    }
 }
 
 @media screen and (min-width: 576px) {
@@ -105,7 +126,7 @@
     .calcContactForm {
         display: flex;
         flex-direction: row;
-        height: 900px !important;
+        height: 755px !important;
         margin: 0px auto;
     }
   }
@@ -120,7 +141,11 @@
 
     .user-inputs, .mortgage-form {
         width: 60%;
-}
+    }
+
+    .disClaimer {
+        width: 67%;
+    }
 }
 
 @media screen and (min-width: 770px) and (max-width: 991px) {
@@ -132,10 +157,16 @@
 
     .user-inputs, .mortgage-form {
         width: 50%;
-}
-}
+    }
+    .calcContactForm {
+        width: 100% !important;
+    }
 
+    .disClaimer {
+        width: 95%;
+    }
 
+}
 @media screen and (min-width: 576px) and (max-width: 769px) {
     canvas, #myChart {
         width: 150% !important;
@@ -158,6 +189,13 @@
 
     .user-inputs, .mortgage-form {
         width: 100%;
+    }
+
+    .calcContactForm {
+        width: 100% !important;
+    }
+    .disClaimer {
+        width: 95%;
     }
 }
 
@@ -318,5 +356,14 @@
         max-width: 100%;
     }
 
+    .calcContactForm {
+        width: 100% !important;
+        height: 755px;
+        margin-bottom: 30px;
+    }
     
+    .disClaimer {
+        margin: 0px auto;
+        width: 95%;
+    }
 }
