@@ -55,9 +55,9 @@ canvas, #myChart {
 
 /* rSize class is found within mortgageCalc6.js */
 .rSize {
-    font-size: 2.1rem;
-    font-weight: 700;
-    color: #424242 !important;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #545454 !important;
     line-height: 28px;
 }
 
@@ -123,7 +123,7 @@ canvas, #myChart {
         border-width: 1px;
         border-color: #e9ecef;
         width: 70% !important;
-        height: auto;
+        height: 772px;
 }
 
 .disClaimer {
@@ -142,7 +142,7 @@ canvas, #myChart {
 @media screen and (min-width: 576px) {
     .mAccordion {
       display: block;
-      margin: 15px 0px;
+      margin: 30px 0px;
     }
   
     .mAccordionBtn {
@@ -162,7 +162,6 @@ canvas, #myChart {
     .calcContactForm {
         display: flex;
         flex-direction: row;
-        height: 755px !important;
         margin: 0px auto;
     }
   }
@@ -446,7 +445,7 @@ canvas, #myChart {
 
     .calcContactForm {
         width: 100% !important;
-        height: 755px;
+        height: 772px;
         margin-bottom: 30px;
     }
     
