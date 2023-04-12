@@ -1,0 +1,457 @@
+
+
+#mainTitle, .instructions {
+    text-align: left !important;
+}
+
+.instructions {
+    padding: 0px;
+}
+
+.options-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0px;
+}
+
+.optionsTitleDesktop {
+    margin: 0px 0px 15px 0px;
+}
+
+.mt-4 {
+    margin-top: 0px !important;
+}
+
+#myChart {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-style: none;
+    border-radius: 4px;
+    z-index: 0;
+    vertical-align: middle;
+}
+
+canvas, #myChart {
+    width: 400px !important;
+    height: 400px !important;
+    margin: 0px auto !important;
+} 
+
+#results {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    z-index: 2;
+    margin: 80px auto -290px auto;
+    color: #0b3438;
+}
+
+/* rSize class is found within mortgageCalc6.js */
+.rSize {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #424242 !important;
+    line-height: 28px;
+}
+
+.dnutChart {
+    position: relative;
+    z-index: 0;
+}
+
+.form-group {
+    text-align: left;
+    width: 100%;
+}
+.keyColorBlock {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    margin-right: 2px;
+    display: inline-block;
+    vertical-align:baseline;
+} 
+
+.keyPurchase {
+    background-color: rgb(54, 162, 235);
+}
+.keyTax {
+    background-color: rgb(255, 99, 132);
+}
+.keyInsurance {
+    background-color: rgb(75, 192, 192);
+}
+.KeyPMI {
+    background-color: rgb(255, 205, 86);
+}
+.keyHOA {
+    background-color: rgb(153, 102, 255);
+}
+
+.optionsDesktop {
+    display: flex;
+    visibility: visible !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e9ecef;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.mAccordionBtn {
+    display: none;
+}
+
+.rowCenter {
+    margin: 0px auto;
+}
+.optionsMobile {
+    margin: 0px auto !important;
+}
+
+.calcContactForm {
+        border-style: solid;
+        border-width: 1px;
+        border-color: #e9ecef;
+        width: 70% !important;
+        height: auto;
+}
+
+.disClaimer {
+    font-size: 0.8rem;
+    margin: 30px auto;
+    width: 67%;
+    color: #444;
+}
+
+@media screen and (min-width:1200px) {
+    .disClaimer {
+        width: 59% !important;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .mAccordion {
+      display: block;
+      margin: 15px 0px;
+    }
+  
+    .mAccordionBtn {
+      display: none;
+    }
+  
+    .optionsDesktop {
+      display: flex !important;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #e9ecef;
+      border-radius: 4px;
+      padding: 10px;
+      margin: 0px;
+    }
+
+    .calcContactForm {
+        display: flex;
+        flex-direction: row;
+        height: 755px !important;
+        margin: 0px auto;
+    }
+  }
+  
+
+@media screen and (min-width: 992px) and (max-width: 1090px) {
+    
+    #results {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        z-index: 2;
+        margin: 90px 0px -285px 0px;
+        color: #0b3438;
+        padding: 0px;
+    }
+
+    .user-inputs, .mortgage-form {
+        width: 100%;
+    }
+
+    .disClaimer {
+        width: 67% !important;
+    }
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 991px) {
+    
+    canvas, #myChart {
+        width: 350px !important;
+        height: 350px !important;
+        margin: 0px auto !important;
+    } 
+    
+    #results {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        z-index: 2;
+        margin: 90px 0px -275px 0px;
+        color: #0b3438;
+        padding: 0px;
+    }
+    
+    /* rSize class is found within mortgageCalc6.js */
+    .rSize {
+        font-size: 1.9rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .user-inputs, .mortgage-form {
+        width: 50%;
+    }
+    .calcContactForm {
+        width: 100% !important;
+    }
+
+    .disClaimer {
+        width: 95% !important;
+    }
+
+}
+@media screen and (min-width: 576px) and (max-width: 769px) {
+    
+    canvas, #myChart {
+        width: 100%;
+        height: 325px !important;
+    }
+
+    #results {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        z-index: 2;
+        margin: 90px 0px -245px 0px;
+        color: #0b3438;
+        padding: 0px
+    }
+    
+    /* rSize class is found within mortgageCalc6.js */
+    .rSize {
+        font-size: 1.9rem;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    #mortgage-form {
+        width: 120px;
+        margin-right: 20px;
+    } 
+
+    .mt-4 {
+        width: 100%;
+        text-align: center;
+        margin: 0px auto;
+        justify-content: center;
+    }
+
+    .user-inputs, .mortgage-form {
+        width: 100%;
+    }
+
+    .calcContactForm {
+        width: 100% !important;
+    }
+    .disClaimer {
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    #hideAChart {
+        display: none;
+    }
+
+    .nextGrp {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mt-4 {
+        text-align: center;
+        margin: 0px auto;
+        justify-content: center;
+    }
+
+    .user-inputs, .mortgage-form {
+        width: 100%;
+    }
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5rem;
+        font-weight: 600;
+        transition: 0.2s ease-in-out;
+        height: auto;
+    }
+
+    .active, .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .optionsDesktop {
+        
+        flex-direction: column;
+        width: 85%;
+        align-items: center;
+        margin: 0px auto;
+        align-content: center;
+    }
+
+    .panel {
+        padding: 0;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-in-out;
+    }
+
+    button:focus {
+        border: none;
+        outline: none;
+    }
+
+    .panel.show {
+        max-height: 500px;
+    }
+
+    .panelStyle {
+        border-style: solid;
+        border-width: 0px 1px 1px 1px;
+        border-color: #e9ecef;
+        border-radius: 4px;
+        width: 90%;
+        margin: 0px auto 0px auto;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .panel.show .mAccordionContent {
+        display: block;
+      }
+
+    .mFormGroup {
+        display: flex;
+        flex-direction: column;
+        margin: 15px auto;
+        text-align: Center;
+        min-width: 120px;
+        max-width: 85%;
+    }
+
+    label {
+        font-weight: 600;
+    }
+    .keyColorBlock {
+        display: none;
+    }
+    #mainTitle {
+        text-align: center;
+    }
+    #interest-rate {
+        margin-bottom: 15px;
+    }
+
+    .mAccordion {
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto 20px auto;
+        border-radius: 4px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .mAccordionBtn.active, .mAccordionBtn:hover {
+        background-color: #e9ecef;
+    }
+
+    .mAccordionContent {
+        display: block;
+        width: 100%;
+    }
+
+    .mAccordionBtn {
+        display: block;
+        width: 100%;
+        height: 60px;
+        margin: 0px auto 15px auto;
+        align-items: center;
+        background-color: #e9ecef;
+        padding: 1rem auto;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border-style: none;
+        border-radius: 4px;
+    }
+
+    .optionsMobile {
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .optionsTitleDesktop {
+        display: none;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 15px auto;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .calcContactForm {
+        width: 100% !important;
+        height: 755px;
+        margin-bottom: 30px;
+    }
+    
+    .disClaimer {
+        margin: 0px auto;
+        width: 95% !important;
+    }
+}
