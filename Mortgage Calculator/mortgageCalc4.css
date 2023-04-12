@@ -66,8 +66,7 @@ canvas, #myChart {
 
 .form-group {
     text-align: left;
-    min-width: 120px;
-    max-width: 75%;
+    width: 100%;
 }
 .keyColorBlock {
     width: 12px;
