@@ -75,9 +75,9 @@ function calculateMortgage() {
     const resultsElement = document.getElementById("results");
 
     resultsElement.innerHTML = `
-        <h2>Monthly Payment</h2>
-        <h2>$${totalMonthlyPayment.toFixed(2)}</h2>
-        (Including Optional Expenses)</p>
+        <h2 class="rSize">Monthly<br>Payment</h2>
+        <h2 class="rSize">$${totalMonthlyPayment.toFixed(2)}</h2>
+        <p style="font-size: 10px;">(Including Optional Expenses)</p>
     `;
 
     // Update the chart data
